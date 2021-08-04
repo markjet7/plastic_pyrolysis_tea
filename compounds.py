@@ -33,7 +33,7 @@ customChemicals = {
     for c in customChemicals.values()]
 
 # Use the PE model for the PP saturation pressure model
-[PP.Psat.add_model(p) for p in PE.Psat] 
+# [PP.Psat.add_model(p) for p in PE.Psat] 
 
 chemicals = bst.Chemicals([CH4, H2O, CO2, O2, PET, PP, PE, Char, Al, Benzene, Heptane, Heptene], cache=True)
 for chemical in chemicals:
