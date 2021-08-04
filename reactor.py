@@ -4,7 +4,7 @@ class Reactor(bst.Unit):
     _N_ins = 1
     _N_outs = 1
     _N_heat_utilities = 1
-    _BM = {'Heaters':1}
+    _F_BM_default = {'Heaters':1}
     _units = {'Area', 'm^2'}
     
     def __init__(self, ID='', ins=None, outs=(), yields=None, *args, **kwargs):
